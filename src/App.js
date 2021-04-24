@@ -1,12 +1,10 @@
 import React from 'react';
 import { useParams } from "react-router";
-import logo from './logo.svg';
 import './App.css';
 import {
 	BrowserRouter as Router,
 	Switch,
-	Route,
-	Link
+	Route
 } from "react-router-dom";
 import ReactSVG from 'react-svg';
 import ScreenManager from './ScreenManager';

@@ -15,7 +15,7 @@ export default class ScreenManager{
     }
 
     setSelectedScreen = (screen) => {
-        let pattern =   /[\_]+[0-9]+/g;
+        let pattern =   /[_]+[0-9]+/g;
         let screenName=screen.replace(pattern, '');
         const viewBox = this.viewBoxMap[screen]? this.viewBoxMap[screen] : this.viewBoxMap[screenName];
         this.svgNode.setAttribute("viewBox", viewBox);
