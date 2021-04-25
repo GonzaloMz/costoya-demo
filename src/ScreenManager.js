@@ -24,7 +24,7 @@ export default class ScreenManager{
     getViewBoxMap = () => {
         return this.viewBoxMap;
     }
-}
+} 
 /**
  * 
  * @param {HTMLElement} svg 
